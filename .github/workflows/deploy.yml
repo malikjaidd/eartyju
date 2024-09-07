@@ -7,6 +7,7 @@ on:
       - main  # Trigger deployment on push to main branch
 
 jobs:
+
   deploy:
     name: Deploy Application to EC2
     runs-on: ubuntu-latest
